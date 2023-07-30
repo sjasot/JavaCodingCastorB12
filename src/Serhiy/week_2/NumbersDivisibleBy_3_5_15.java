@@ -12,4 +12,31 @@ package Serhiy.week_2;
  * Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
  */
 public class NumbersDivisibleBy_3_5_15 {
+
+    public static void main(String[] args) {
+
+        String divisibleBy15 = "";
+        String divisibleBy5 = "";
+        String divisibleBy3 = "";
+
+        for (int i = 1; i <=100 ; i++) {
+
+            if (i%15 == 0 && i%5==0 && i%3==0){
+                divisibleBy15 += i+ " ";
+            }
+            if (i%15 != 0 && i%5 == 0){
+                divisibleBy5 += i+ " ";
+            }
+            if (i%15 != 0 && i%3 == 0){
+                divisibleBy3 += i+ " ";
+            }
+        }
+
+        System.out.println("divisibleBy15 = " + divisibleBy15);
+        System.out.println("divisibleBy5 = " + divisibleBy5);
+        System.out.println("divisibleBy3 = " + divisibleBy3);
+
+    }
+
+
 }
