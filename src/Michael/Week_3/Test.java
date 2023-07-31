@@ -1,4 +1,4 @@
 package Michael.Week_3;
 
-public class sdgsg {
+public class Test {
 }
