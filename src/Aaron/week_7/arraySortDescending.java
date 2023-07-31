@@ -1,4 +1,4 @@
-package Aaron.Week_7;
+package Aaron.week_7;
 
 import java.util.ArrayList;
 import java.util.Arrays;
