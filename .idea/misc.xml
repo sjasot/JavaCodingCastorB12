@@ -1,5 +1,9 @@
 <project version="4">
+<<<<<<< HEAD
+  <component name="ProjectRootManager">
+=======
   <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK">
+>>>>>>> master
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
