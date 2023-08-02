@@ -1,12 +1,3 @@
-<<<<<<< HEAD
 .idea
 *.iml
 out
-=======
-*.iml
-out
-.idea
-target
-
-
->>>>>>> master
