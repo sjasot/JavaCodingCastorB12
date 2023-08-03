@@ -20,7 +20,7 @@ public class List_RemoveNameAhmed {
         System.out.println(newList);//without "Ahmed"
 
         System.out.println("\n=======================   dynamic  ======================================\n");
-        deleteTheName(list,"Aaron");
+        deleteTheName(list,"Eric");
     }
     public static Object deleteTheName(ArrayList list, String name) {
         ArrayList<String> newList = new ArrayList<>();
