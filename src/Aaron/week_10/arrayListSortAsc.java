@@ -10,7 +10,7 @@ public class arrayListSortAsc {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(5,55,4,44));
        SortingArrayListAsc(list);
-        SortingArrayListDesc(list);
+      //  SortingArrayListDesc(list);
 
     }
     public static void SortingArrayListAsc(List<Integer> list) {
